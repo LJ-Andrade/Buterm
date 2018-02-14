@@ -1,0 +1,75 @@
+////////////////////////////////////////
+//                                    //
+//              HOME                  //
+//                                    //
+////////////////////////////////////////
+
+.intro-text
+    img
+        margin-left: -20px
+        margin-bottom: 50px
+        max-width: 100%
+
+
+#nosotros
+    background-color: #fff
+    .about-text
+        p
+            font-size: 1rem
+    .logo-img
+        img
+            max-width: 100%
+
+@media (min-width: 768px)
+    #nosotros
+        .logo-img
+            img
+                padding-top: 10px
+            
+@media (max-width: 768px)
+    #nosotros
+        .logo-img
+            @include flex-center
+            img
+                padding-top: 20px
+
+#aislante
+    img
+        max-width: 100%
+    .list-items
+        padding: 5px 18px
+        
+.presupuesto
+    margin: 25px 0
+    padding: 10px
+    border: 1px solid rgba(0,0,0,0.10)
+    border-radius: 10px
+
+.bottom-logo
+    margin-top: 25px
+    margin-left: -20px
+    img
+        max-width: 100%
+        padding: 15px
+
+footer
+    background-color: #383838
+    font-size: 0.9rem
+    color: #fff
+    span
+    .logo
+        img
+            max-width: 100%
+            width: 100px
+    a
+        color: #fff
+        &:hover
+            color: #ccc
+
+.contact-data
+    p
+        color: #5a5757
+    a
+        color: #5a5757
+        &:hover
+            color: #ccc

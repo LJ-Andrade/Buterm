@@ -1,0 +1,97 @@
+html
+	min-height: 100%
+	position: relative
+	font-size: 100%
+	overflow-x: hidden
+
+body
+	height: 100%
+	overflow-x: hidden
+	font-size: 18px
+	background-color: #fff
+	color: #383838
+	font-family: $font1
+	font-weight: 300
+	line-height: 24px
+	margin: 0
+a
+	text-decoration: none
+	color: rgb(187, 183, 242)
+	&:hover
+		text-decoration: none
+		color: #383838
+
+a.anchor
+	display: block
+	position: relative
+	top: -50px
+	visibility: hidden
+
+p
+	font-size: 1rem
+	font-weight: 300
+
+h1,h2,h3,h4
+	font-family: $font1
+h1
+	font-size: 2.5rem
+	font-weight: 700
+h2
+	font-size: 1.8rem
+	font-weight: 700
+h3
+	font-size: 1.3rem
+	font-weight: 400
+	color: $red
+h4
+	font-size: 1.2rem
+	color: #6f6f6f
+	font-weight: 300
+
+.brd
+	border: 1px solid red
+.txL
+	text-align: left
+.txR
+	text-align: right
+.txC
+	text-align: center
+.pad0
+	padding: 0
+.mar0
+	margin: 0
+.margTop0
+	margin-top: 0 !important
+.padTop0
+	padding-top: 0 !important
+
+@media (max-width: 900px)
+	.hideMobile900
+		display: none !important
+.Hidden
+	display: none !important
+.floatRight
+	float: right
+.floatLeft
+	float: left
+.justify
+	text-align: justify
+
+	// Resets
+ul
+	padding-left: 0
+
+.flex-center
+	@include flex-center
+.flex-column
+	@include flex-column
+.flex-container
+	display: flex
+	flex-direction: row
+
+@media (max-width: 984px)
+	.center-mobile
+		@include flex-center
+		margin-top: 25px
+		img
+			max-width: 100%

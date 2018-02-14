@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')
+
+$font1: 'Roboto', sans-serif
+
+$orange:  #dc9f1d
+$orangeH: #ceaa5f
+$greenD:  #8DBB61
+$greenL:  #9FD56B
+$green:   #8DBB61
+$greenH:  #9FD56B
+$blue:    #2754b1
+$blueH:   #7689C8
+$red:     #ce3536
+$redH:    #C47777
+
+.color-blue
+	color: $blue
+//////////////////////////////////////
+//                                  //
+//              BUTTONS             //
+//                                  //
+//////////////////////////////////////
+
+
+.button
+	border: 0
+	border-radius: 0px
+	padding: 14px 20px
+	height: 14px
+	font-size: 1.2rem
+	white-space: nowrap
+	vertical-align: middle
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	background-image: none
+	line-height: 3
+	margin: 4px
+	@include transition(0.2s)
+	&:hover
+		cursor: pointer
+
+
+.btnBig
+	border: 0
+	border-radius: 0
+	padding: 7px 20px
+	font-size: 1.2rem
+	white-space: nowrap
+	vertical-align: middle
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	background-image: none
+	line-height: 1.42857143
+	margin: 4px
+	@include transition(0.2s)
+	&:hover
+		cursor: pointer
+
+.btn
+	font-size: 1.2rem
+	white-space: nowrap
+	vertical-align: middle
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	background-image: none
+	line-height: 1.42857143
+	border: 0
+	@include transition(0.3s)
+
+.btnSubmit
+	padding: 2px 25px
+	font-size: 1.2rem
+	white-space: nowrap
+	vertical-align: middle
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	background-image: none
+	line-height: 1.42857143
+	border: 0
+	@include transition(0.3s)
+
+.btnWhite
+	border: 1px solid #fff
+	background-color: #fff
+	margin: 2px 2px
+	color: #383838
+	&:hover,&:active,&:focus
+		border: 1px solid transparent
+		background-color: rgba(255,255,255,.5)
+		color: #fff
+
+.btnGreen
+	background-color: rgb(73, 164, 98)
+	margin: 2px 2px
+	color: #fff
+	&:hover,&:active,&:focus
+		background-color: rgb(92, 200, 122)
+		color: #fff
+.btnBlue
+	background-color: $blue
+	margin: 2px 2px
+	color: #fff
+	&:hover,&:active,&:focus
+		background-color: rgb(130, 162, 201)
+		color: #fff
+.btnRed
+	background-color: $red
+	margin: 2px 2px
+	color: #fff
+	&:hover,&:active,&:focus
+		background-color: rgb(205, 115, 113)
+		color: #fff
+
+.btnYellow
+	background-color: rgb(196, 199, 70)
+	margin: 2px 2px
+	color: #fff
+	&:hover,&:active,&:focus
+		background-color: rgb(203, 205, 111)
+		color: #fff
+
+.btnHollowWhite
+	border: 1px solid white
+	background-color: transparent
+	color: #fff
+	&:hover,&:active,&:focus
+		border: 1px solid transparent
+		background-color: rgba(255,255,255,.5)
+		color: #fff
+
+//////////////////////////////////////
+//                                  //
+//              LISTS               //
+//                                  //
+//////////////////////////////////////
+
+///// Vertical List ///
+.vertical-list
+	ul
+		padding-left: 0
+		padding: 0
+		margin: 0
+		list-style: none
+		li
+			list-style: none
+			display: block
+			// float: left
+			// width: 100px
+			// line-height: 80px
+			// vertical-align: middle
+			a
+				font-size: 1rem
+				color: #fff
+				
+
+
+//// Grid View /////
+.horizontal-list
+	ul
+		padding-left: 0
+		padding: 0
+		margin: 0
+		li
+			display: inline-block
+			list-style: none
+
+.img-simple-gal
+	margin-top: 25px
+	img
+		margin-bottom: 15px
+
+////////////////// Containers ///////////////////////
+.mainContainer
+	margin-top: 20px
+
+.wrapper
+	position: relative
+	height: 100%
+	padding-bottom: 60px
+
+.row-centered
+	text-align: center
+
+.col-centered
+	display: inline-block
+	float: none
+	text-align: left
+	margin-right: -4px
+
+
+.softhr
+	border-top: 1px solid rgba(206, 192, 192, 0.48)
+
+.img-gallery
+	margin-top: 30px
+
+//////////////////////////////////////
+//                                  //
+//            FORMS                 //
+//                                  //
+//////////////////////////////////////
+
+.form-control
+	box-shadow: none
+	border-radius: 0
+	.submit-btn
+		padding: 10px

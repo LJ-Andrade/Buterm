@@ -1,0 +1,43 @@
+.navbar-brand
+    img
+        max-height: 100%
+
+@media (min-width: 768px)
+    .navbar-default
+        padding: 5px 0
+
+.navbar-default .nav li a
+    text-transform: none
+
+.navbar-default
+    background-color: #fff
+
+.navbar-default .nav li a
+    color: #383838
+    font-weight: 300
+    padding-top: 25px
+
+@media (max-width:768px)
+    .navbar-default .nav li a
+        padding-top: 15px
+
+@media (min-width:768px)
+    .navbar-default.navbar-shrink   
+        background-color: #fff
+
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus
+    color: $blue
+
+
+// Hamburguer button
+.navbar-default .navbar-toggle
+    background-color: #383838
+    border: 0
+    margin-top: 18px
+    &:hover,&:focus,&:active
+        background-color: #ccc
+
+@media (max-width: 1200px)
+    .navbar-nav
+        li a 
+            font-size: 1rem
