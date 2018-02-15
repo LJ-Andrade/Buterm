@@ -19,7 +19,7 @@
 				<li><a class="page-scroll" href="#2">Aislantes Térmicos</a></li>
 				<li><a class="page-scroll" href="#3">Cobertores de Piscinas</a></li>
 				<li><a class="page-scroll" href="#4">Malla Sostén</a></li>
-				<li><a class="page-scroll" href="#5">Contacto</a></li>
+				<li><a class="page-scroll" id="GotoContact" href="#5">Contacto</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

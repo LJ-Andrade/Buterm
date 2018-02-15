@@ -89,15 +89,15 @@
 	<div class="row presupuesto">
 		<h3 style="font-weight: bold">Presupuesto online </h3>
 		<h4><b>Instrucciones:</b></h4>
-		<p>	Rellene la tabla con las medidas deseadas para su manta térmica cubre piscina, Aislantes termicos. <br>
-		Recuerde que las medidas deben estar en metros y en caso de tratarse de números decimales, utilize el punto(.) como limitador.
-		Obrendra los m2. <br>	Haga click en CONSULTAR para poder recibir un presupuesto.</p>
-		<form role="form" class="Calc-Presup col-md-12 form-horizontal">
+		<p>	Rellene la tabla con las medidas deseadas para su manta térmica cubre piscina, aislantes térmicos. <br>
+		Recuerde que las medidas deben estar en metros y en caso de tratarse de números decimales, utilize el punto (.) como limitador.
+		Obrendra los m&sup2;. <br>	Haga click en CONSULTAR para poder recibir un presupuesto.</p>
+		<form role="form" id="CalcAislante" class="col-md-12 form-horizontal">
 			<div class="form-group ">
 				<h4><b>Rellene los campos</b></h4>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="alto"><div class="help">Alto</div></div>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="largo"><div class="help">Largo</div></div>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="m2"><div class="help">Metros&sup2;</div></div>
+				<div class="col-sm-2"><input id="AislHigh" type="number" step="any" class="form-control" name="alto" required=""><div class="help">Alto</div></div>
+				<div class="col-sm-2"><input id="AislLong" type="number" step="any" class="form-control" name="largo" required=""><div class="help">Largo</div></div>
+				<div class="col-sm-2"><input id="AislM2" type="number" step="any" class="form-control Result" name="m2"><div class="help">Metros&sup2;</div></div>
 				<button id="" class="btnSubmit btnBlue">Consultar</button>
 			</div>
 		</form>
@@ -171,16 +171,16 @@
 	<div class="row presupuesto">
 		<h3 style="font-weight: bold">Presupuesto online </h3>
 		<h4><b>Instrucciones:</b></h4>
-		<p>	Rellene la tabla con las medidas deseadas para su manta térmica cubre piscina, Aislantes termicos.
-		Recuerde que las medidas deben estar en metros y en caso de tratarse de números decimales, utilize el punto(.) como limitador.
+		<p>	Rellene la tabla con las medidas deseadas para su manta térmica cubre piscina, aislantes térmicos.
+		Recuerde que las medidas deben estar en metros y en caso de tratarse de números decimales, utilize el punto (.) como limitador.
 		</p>
-		<p>Obrendra los m2. Haga click en CONSULTAR para poder recibir un presupuesto.</p>
-		<form role="form" class="Calc-Presup col-md-12 form-horizontal">
-			<div class="form-group ">
+		<p>Obrendra los &sup2;. Haga click en CONSULTAR para poder recibir un presupuesto.</p>
+		<form role="form" id="CalcCobertor" class="col-md-12 form-horizontal">
+			<div class="form-group">
 				<h4><b>Rellene los campos</b></h4>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="alto"><div class="help">Alto</div></div>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="largo"><div class="help">Largo</div></div>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="m2"><div class="help">Metros&sup2;</div></div>
+				<div class="col-sm-2"><input id="CobertHigh" type="number" step="any" class="form-control" name="alto" required=""><div class="help">Alto</div></div>
+				<div class="col-sm-2"><input id="CobertLong" type="number" step="any" class="form-control" name="largo" required=""><div class="help">Largo</div></div>
+				<div class="col-sm-2"><input id="CobertM2" type="number" step="any" class="form-control Result" name="m2"><div class="help">Metros&sup2;</div></div>
 				<button id="" class="btnSubmit btnBlue">Consultar</button>
 			</div>
 		</form>
@@ -248,12 +248,12 @@
 		 de números decimales, utilize el punto(.) como limitador.
 		</p>
 		<p>Obrendra los m2. Haga click en CONSULTAR para poder recibir un presupuesto.</p>
-		<form role="form" class="Calc-Presup col-md-12 form-horizontal">
+		<form role="form" id="CalcMalla" class="col-md-12 form-horizontal">
 			<div class="form-group ">
 				<h4><b>Rellene los campos</b></h4>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="alto"><div class="help">Alto</div></div>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="largo"><div class="help">Largo</div></div>
-				<div class="col-sm-2"><input type="number" step="any" class="form-control" name="m2"><div class="help">Metros&sup2;</div></div>
+				<div class="col-sm-2"><input id="MallaHigh" type="number" step="any" class="form-control" name="alto" required=""><div class="help">Alto</div></div>
+				<div class="col-sm-2"><input id="MallaLong" type="number" step="any" class="form-control" name="largo" required=""><div class="help">Largo</div></div>
+				<div class="col-sm-2"><input id="MallaM2" type="number" step="any" class="form-control Result" name="m2"><div class="help">Metros&sup2;</div></div>
 				<button id="" class="btnSubmit btnBlue">Consultar</button>
 			</div>
 		</form>
@@ -276,13 +276,19 @@
 			<div class="col-md-6">
 				<form name="sentMessage" id="contactForm" novalidate="">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Ingrese Nombre/Empresa" id="name" required="" data-validation-required-message="Ingrese su nombre o empresa.">
+								<input type="text" class="form-control" placeholder="Ingrese su Nombre" id="name" required="" data-validation-required-message="Ingrese su nombre o empresa.">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Ingrese su Teléfono" id="phone" required="" data-validation-required-message="Ingrese su email">
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<div class="col-md-12">
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Ingrese su Email" id="email" required="" data-validation-required-message="Ingrese su email">
 								<p class="help-block text-danger"></p>
@@ -292,7 +298,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea class="form-control" placeholder="Mensaje o Consulta" id="message" required="" data-validation-required-message="Ingrese un mensaje o consulta"></textarea>
+								<textarea class="form-control" placeholder="Mensaje o Consulta" id="FormMessage" required="" data-validation-required-message="Ingrese un mensaje o consulta"></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
@@ -307,7 +313,7 @@
 				</form>
 			</div>
 			<div class="col-md-6 contact-data">
-				<p><i class="color-blue fa fa-map"></i><b> Av. San martin 1764</b> | San francisco Solano | Bs As.</p>
+				<p><i class="color-blue fa fa-map"></i><b> Av. San martin 1764</b> | San Francisco Solano | Bs As.</p>
 				<p><i class="color-blue fa fa-envelope"></i> consultas@aislantesbuterm.com.ar</p>
 				<p><i class="color-blue fa fa-phone"></i> 11-6827-9387</p>
 				<p><i class="color-blue fab fa-whatsapp"></i> 11-6827-9387</p>
