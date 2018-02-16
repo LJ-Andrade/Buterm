@@ -2,110 +2,25 @@
 
 <!-- Header -->
 <header>
-	<div class="container">
+	<div class="container intro-container">
 		<div class="slider-container">
 			<div class="intro-text">
 				<img src="images/logo.png" alt="Buterm Logo"> <br> <br>
-				<a href="#2" class="page-scroll button btnWhite">Aislante Térmico</a>
-				<a href="#3" class="page-scroll button btnHollowWhite">Cobertores de Piscinas</a>
+				<div class="contact-data-top">
+					<div class="big-text"><i class="color-blue fa fa-phone"></i> 11-6827-9387 | <i class="color-blue fab fa-whatsapp"></i> 11-6827-9387</div>
+					<p><b> Av. San martin 1764</b> | San Francisco Solano | Bs As.</p>
+					<p>consultas@aislantesbuterm.com.ar</p>
+				</div>
+				<!-- <a href="#3" class="page-scroll button btnWhite">Cobertores de Piscinas</a>
+				<a href="#2" class="page-scroll button btnHollowWhite">Aislante Térmico</a> -->
 			</div>
 		</div>
 	</div>
 </header>
-<a class="anchor" id="1"></a>
-<section id="nosotros" class="light-bg">
-	<div class="container">
-		<div class="row">
-				<h2 class="text-center">NUESTRA EMPRESA</h2><br>
-			<div class="col-lg-9 col-sm-8 about-text">
-				<p>La empresa fue <b class="color-blue">creada en 1975 en la ciudad de Quilmes, provincia de Buenos Aires</b>. Dedicándose durante toda su trayectoria
-					a la fabricación y montaje de estructuras metálicas y galpones para el sector industrial.  <br><br>
 
-				Cuatro décadas después incorporamos la marca <b class="color-blue">BUTERM</b>, dando un salto innovador, con el fin de comercializar aislantes térmicos
-					de burbujas encapsuladas estancas combinado con laminas reflectivas, como así también, soluciones para la protección y  
-					mantenimiento sustentable del agua. <br><br>
-
-				Además, Contamos con una línea de mantas isotérmicas con protección UV llamada <br><b class="color-blue">AQUA MAGIC</b>, en la cual ofrecemos el sistema más 
-				eficiente  y económico del mercado para mantener la temperatura y limpieza de su piscina.<br><br>
-
-				<b class="color-blue">En BUTERM</b> ponemos todo nuestro esfuerzo en sacar al mercado productos ecológicos que contribuyan al ahorro energético de industrias
-					y viviendas.</p>
-			</div>
-			<div class="col-md-3 col-sm-4 logo-img">
-				<img src="images/logo2.png" alt="">
-			</div>
-		</div>
-	</div>
-</section>
-<!-- AISLANTE TERMICO -->
-<a class="anchor" id="2"></a>
-<section id="aislante" class="light-bg">
-	<div class="container">
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>AISLANTE TÉRMICO</h2>
-			<h4>Burbuja aluminizada.</h4><br>
-		</div>					
-		<div class="col-lg-12">
-			<span class="small-text">
-			
-			</span>
-			<div class="col-md-6">		
-				<p class="justify"><b class="color-blue">Buterm es un aislante térmico</b> de polietileno compuesto por burbujas de aire encapsulado y una cara reflexiva aluminizada, 
-					manteniendo ambientes climatizados tanto en verano como en invierno, evitando el paso de la humedad y funcionando como una barrera 
-					de vapor. <b class="color-blue">Buterm</b> es un producto confiable en términos de seguridad ya que su comportamiento frente al fuego es de baja propagación
-					de llamas, siendo un producto apto para <b class="color-blue">todo tipo de construcciones</b> (viviendas o galpones).
-				</p>
-				<hr class="softhr">
-				<h3 class="color-blue">Beneficios de Aislantes Buterm</h3>
-				<ul class="list-items">
-					<li>Ambientes más frescos en verano y cálidos en invierno.</li>	
-					<li>Ahorro de energía en las facturas por aire acondicionado o calefacción.</li>
-					<li>Fácil y rápido de instalar.</li>
-					<li>Impermeable al agua.</li>
-					<li>Resistente a la formación de hongos.</li>
-					<li>Barrera de vapor.</li>
-					<li>Evita todo tipo de filtraciones.</li>
-				</ul>
-				<a class="button btnBlue" href="http://www.aislantesbuterm.com.ar/pdf/aislantes%20%20termicos%20BUTERM.pdf" target="_blank">Ver Folleto</a>
-			</div>
-			<div class="col-md-6 center-mobile">
-				<img src="images/aislante/aislante.png" alt="Cobertores Termicos Buterm">
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-12 text-center img-gallery">
-			<div class="owl-carousel1">
-				<div class="item"><div class="inner-img"><img src="images/aislante/1-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/aislante/2-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/aislante/3-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/aislante/4-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/aislante/5-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/aislante/6-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>			
-			</div>
-		</div>
-	</div>
-	<div class="row presupuesto">
-		<h3 style="font-weight: bold">Presupuesto online </h3>
-		<h4><b>Instrucciones:</b></h4>
-		<p>	Rellene la tabla con las medidas deseadas para su manta térmica cubre piscina, aislantes térmicos. <br>
-		Recuerde que las medidas deben estar en metros y en caso de tratarse de números decimales, utilize el punto (.) como limitador.
-		Obrendra los m&sup2;. <br>	Haga click en CONSULTAR para poder recibir un presupuesto.</p>
-		<form role="form" id="CalcAislante" class="col-md-12 form-horizontal">
-			<div class="form-group ">
-				<h4><b>Rellene los campos</b></h4>
-				<div class="col-sm-2"><input id="AislHigh" type="number" step="any" class="form-control" name="alto" required=""><div class="help">Alto</div></div>
-				<div class="col-sm-2"><input id="AislLong" type="number" step="any" class="form-control" name="largo" required=""><div class="help">Largo</div></div>
-				<div class="col-sm-2"><input id="AislM2" type="number" step="any" class="form-control Result" name="m2"><div class="help">Metros&sup2;</div></div>
-				<button id="" class="btnSubmit btnBlue">Consultar</button>
-			</div>
-		</form>
-	</div>
-</section>
 
 <!-- COBERTORES DE PISCINAS -->
-<a class="anchor" id="3"></a>
+<a class="anchor" id="1"></a>
 <section id="" class="">
 	<div class="container">
 	<div class="row">
@@ -187,8 +102,102 @@
 	</div>
 </section>
 
+<!-- AISLANTE TERMICO -->
+<a class="anchor" id="2"></a>
+<section id="aislante" class="light-bg">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>AISLANTE TÉRMICO</h2>
+			<h4>Burbuja aluminizada.</h4><br>
+		</div>					
+		<div class="col-lg-12">
+			<span class="small-text">
+			
+			</span>
+			<div class="col-md-6">		
+				<p class="justify"><b class="color-blue">Buterm es un aislante térmico</b> de polietileno compuesto por burbujas de aire encapsulado y una cara reflexiva aluminizada, 
+					manteniendo ambientes climatizados tanto en verano como en invierno, evitando el paso de la humedad y funcionando como una barrera 
+					de vapor. <b class="color-blue">Buterm</b> es un producto confiable en términos de seguridad ya que su comportamiento frente al fuego es de baja propagación
+					de llamas, siendo un producto apto para <b class="color-blue">todo tipo de construcciones</b> (viviendas o galpones).
+				</p>
+				<hr class="softhr">
+				<h3 class="color-blue">Beneficios de Aislantes Buterm</h3>
+				<ul class="list-items">
+					<li>Ambientes más frescos en verano y cálidos en invierno.</li>	
+					<li>Ahorro de energía en las facturas por aire acondicionado o calefacción.</li>
+					<li>Fácil y rápido de instalar.</li>
+					<li>Impermeable al agua.</li>
+					<li>Resistente a la formación de hongos.</li>
+					<li>Barrera de vapor.</li>
+					<li>Evita todo tipo de filtraciones.</li>
+				</ul>
+				<a class="button btnBlue" href="http://www.aislantesbuterm.com.ar/pdf/aislantes%20%20termicos%20BUTERM.pdf" target="_blank">Ver Folleto</a>
+			</div>
+			<div class="col-md-6 center-mobile">
+				<img src="images/aislante/aislante.png" alt="Cobertores Termicos Buterm">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center img-gallery">
+			<div class="owl-carousel1">
+				<div class="item"><div class="inner-img"><img src="images/aislante/1-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
+				<div class="item"><div class="inner-img"><img src="images/aislante/2-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
+				<div class="item"><div class="inner-img"><img src="images/aislante/3-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
+				<div class="item"><div class="inner-img"><img src="images/aislante/4-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
+				<div class="item"><div class="inner-img"><img src="images/aislante/5-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>
+				<div class="item"><div class="inner-img"><img src="images/aislante/6-t.jpg" alt="Cobertores de Piscinas Buterm"></div></div>			
+			</div>
+		</div>
+	</div>
+	<div class="row presupuesto">
+		<h3 style="font-weight: bold">Presupuesto online </h3>
+		<h4><b>Instrucciones:</b></h4>
+		<p>	Rellene la tabla con las medidas deseadas para su manta térmica cubre piscina, aislantes térmicos. <br>
+		Recuerde que las medidas deben estar en metros y en caso de tratarse de números decimales, utilize el punto (.) como limitador.
+		Obrendra los m&sup2;. <br>	Haga click en CONSULTAR para poder recibir un presupuesto.</p>
+		<form role="form" id="CalcAislante" class="col-md-12 form-horizontal">
+			<div class="form-group ">
+				<h4><b>Rellene los campos</b></h4>
+				<div class="col-sm-2"><input id="AislHigh" type="number" step="any" class="form-control" name="alto" required=""><div class="help">Alto</div></div>
+				<div class="col-sm-2"><input id="AislLong" type="number" step="any" class="form-control" name="largo" required=""><div class="help">Largo</div></div>
+				<div class="col-sm-2"><input id="AislM2" type="number" step="any" class="form-control Result" name="m2"><div class="help">Metros&sup2;</div></div>
+				<button id="" class="btnSubmit btnBlue">Consultar</button>
+			</div>
+		</form>
+	</div>
+</section>
 
-<!-- MALLA SOSTEN -->
+
+
+<a class="anchor" id="3"></a>
+<section id="nosotros" class="light-bg">
+	<div class="container">
+		<div class="row">
+				<h2 class="text-center">NUESTRA EMPRESA</h2><br>
+			<div class="col-lg-9 col-sm-8 about-text">
+				<p>La empresa fue <b class="color-blue">creada en 1975 en la ciudad de Quilmes, provincia de Buenos Aires</b>. Dedicándose durante toda su trayectoria
+					a la fabricación y montaje de estructuras metálicas y galpones para el sector industrial.  <br><br>
+
+				Cuatro décadas después incorporamos la marca <b class="color-blue">BUTERM</b>, dando un salto innovador, con el fin de comercializar aislantes térmicos
+					de burbujas encapsuladas estancas combinado con laminas reflectivas, como así también, soluciones para la protección y  
+					mantenimiento sustentable del agua. <br><br>
+
+				Además, Contamos con una línea de mantas isotérmicas con protección UV llamada <br><b class="color-blue">AQUA MAGIC</b>, en la cual ofrecemos el sistema más 
+				eficiente  y económico del mercado para mantener la temperatura y limpieza de su piscina.<br><br>
+
+				<b class="color-blue">En BUTERM</b> ponemos todo nuestro esfuerzo en sacar al mercado productos ecológicos que contribuyan al ahorro energético de industrias
+					y viviendas.</p>
+			</div>
+			<div class="col-md-3 col-sm-4 logo-img">
+				<img src="images/logo2.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- MALLA SOSTEN
 <a class="anchor" id="4"></a>
 <section id="" class="light-bg">
 	<div class="container">
@@ -259,7 +268,7 @@
 		</form>
 	</div>
 </section>
-
+ -->
 <!-- Contacto -->
 <a class="anchor" id="5"></a>
 <section id="contact">
