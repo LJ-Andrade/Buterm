@@ -1,5 +1,6 @@
 		
 	<footer>
+		Desarrollado por <a href="https://vimana.studio">Vimana Studio</a> - <?php echo date("Y"); ?>
 		<!-- <div class="container">
 			<div class="col-md-2 vertical-list">
 				<ul>
