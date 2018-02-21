@@ -285,13 +285,13 @@
 			<div class="col-md-6">
 				<form name="sentMessage" id="contactForm" novalidate="">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-6 col-sm-12">
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Ingrese su Nombre" id="name" required="" data-validation-required-message="Ingrese su nombre o empresa.">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
-						<div class="col-md-12">
+						<div class="col-md-6  col-sm-12">
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Ingrese su Teléfono" id="phone" required="" data-validation-required-message="Ingrese su email">
 								<p class="help-block text-danger"></p>
