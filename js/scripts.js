@@ -106,7 +106,7 @@ $('#AislLong').keyup(function() {
 $('#CalcAislante').on('submit', function(e){
     e.preventDefault();
     var m2 = $('#AislM2').val();
-    var message = "Consulta sobre AISANTES TÉRMICOS. A cubrir: " + m2 + " metros2";
+    var message = "Consulta sobre AISLANTES TÉRMICOS. A cubrir: " + m2 + " metros2";
     $('#GotoContact').click();
     $('#FormMessage').val(message);
 });
