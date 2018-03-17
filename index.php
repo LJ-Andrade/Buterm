@@ -7,9 +7,15 @@
 			<div class="intro-text">
 				<img src="images/logo.png" alt="Buterm Logo"> <br> <br>
 				<div class="contact-data-top">
-					<div class="big-text"><i class="color-blue fa fa-phone"></i> 11-6827-9387 | <i class="color-blue fab fa-whatsapp"></i> 11-6827-9387</div>
-					<p><b> Av. San martin 1764</b> | San Francisco Solano | Bs As.</p>
-					<p>consultas@aislantesbuterm.com.ar</p>
+					<?php if(isset($_GET['send']) && $_GET['send'] == 'success'){ ?>
+						<div class="big-text" style="line-height: 2rem">Gracias por contactarse. <br>Nos estaremos comunicando a la breverdad</div>
+					<?php } elseif ($_GET['send'] == 'error') { ?>
+		                <div class="Hidden"> <?php var_dump($e) ?> </div>
+					<?php } else { ?>
+						<div class="big-text"><i class="color-blue fa fa-phone"></i> 11-6827-9387 | <i class="color-blue fab fa-whatsapp"></i> 11-6827-9387</div>
+						<p><b> Av. San martin 1764</b> | San Francisco Solano | Bs As.</p>
+						<p>consultas@aislantesbuterm.com.ar</p>
+					<?php } ?>
 				</div>
 				<!-- <a href="#3" class="page-scroll button btnWhite">Cobertores de Piscinas</a>
 				<a href="#2" class="page-scroll button btnHollowWhite">Aislante Térmico</a> -->
@@ -197,78 +203,6 @@
 	</div>
 </section>
 
-<!-- MALLA SOSTEN
-<a class="anchor" id="4"></a>
-<section id="" class="light-bg">
-	<div class="container">
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>MALLA SOSTÉN</h2>
-			<h4></h4><br>
-		</div>					
-		<div class="col-lg-12">
-			<span class="small-text">
-			</span>
-			<div class="col-md-6">		
-				<p class="justify"> 
-				Malla Cuadrada para Sostén de Aislantes termicos. 10cm X 10cm. <br>	
-				<b class="color-blue">La MALLA BUTERM</b> es una red plana especialmente diseñadas para la instalación de membranas aislantes en techos.
-				La malla sosten es resistente y fácil de instalar tanto en techos de galpones industriales como en viviendas. <br>	
-				Facilitan la instalación de los sistemas de aislación térmica. Su estructura geométrica y presentación en rollos 
-				de bajo peso, ayudan a reducir los tiempos de montaje, reemplazando a los tradicionales sistemas de tensores de 
-				alambres que sufren de corrosión.
-				</p>
-				<hr class="softhr">
-				<h3 class="color-blue">Apto para:</h3>
-				<ul class="list-items">
-					<li>Techos Industriales</li>
-					<li>Galpones</li>
-					<li>Locales Comerciales</li>
-					<li>Depósitos</li>
-				</ul>
-				<h3 class="color-blue">Presentaciones</h3>
-				<ul class="list-items">
-					<li>1 - Rollos  de 1 metros x 200 metros (200 m2).</li>
-					<li>2 - Rollos  de 2 metros x 200 metros (400 m2).</li>
-				</ul>
-				<b>Material: PP  polipropileno cristal</b>
-			</div>
-			<div class="col-md-6 center-mobile">
-				<img src="images/malla/malla.png" alt="">
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-12 text-center img-gallery">
-			<div class="owl-carousel1">
-				<div class="item"><div class="inner-img"><img src="images/malla/1.jpg" alt="Mallas Sostén Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/malla/2.jpg" alt="Mallas Sostén Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/malla/3.jpg" alt="Mallas Sostén Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/malla/4.jpg" alt="Mallas Sostén Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/malla/5.jpg" alt="Mallas Sostén Buterm"></div></div>
-				<div class="item"><div class="inner-img"><img src="images/malla/6.jpg" alt="Mallas Sostén Buterm"></div></div>
-			</div>
-		</div>
-	</div>
-	<div class="row presupuesto">
-		<h3 style="font-weight: bold">Presupuesto online </h3>
-		<h4><b>Instrucciones:</b></h4>
-		<p>	Rellene la tabla con las medidas deseadas para su Malla Sostén. Recuerde que las medidas deben estar en metros y en caso de tratarse
-		 de números decimales, utilize el punto(.) como limitador.
-		</p>
-		<p>Obrendra los m2. Haga click en CONSULTAR para poder recibir un presupuesto.</p>
-		<form role="form" id="CalcMalla" class="col-md-12 form-horizontal">
-			<div class="form-group ">
-				<h4><b>Rellene los campos</b></h4>
-				<div class="col-sm-2"><input id="MallaHigh" type="number" step="any" class="form-control" name="alto" required=""><div class="help">Alto</div></div>
-				<div class="col-sm-2"><input id="MallaLong" type="number" step="any" class="form-control" name="largo" required=""><div class="help">Largo</div></div>
-				<div class="col-sm-2"><input id="MallaM2" type="number" step="any" class="form-control Result" name="m2"><div class="help">Metros&sup2;</div></div>
-				<button id="" class="btnSubmit btnBlue">Consultar</button>
-			</div>
-		</form>
-	</div>
-</section>
- -->
 <!-- Contacto -->
 <a class="anchor" id="5"></a>
 <section id="contact">
@@ -283,7 +217,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<form name="sentMessage" id="contactForm" novalidate="">
+				<form id="contactForm" action="	send.php" method="POST">
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="form-group">
@@ -293,7 +227,7 @@
 						</div>
 						<div class="col-md-6  col-sm-12">
 							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Ingrese su Teléfono" id="phone" required="" data-validation-required-message="Ingrese su email">
+								<input type="phone" class="form-control" placeholder="Ingrese su Teléfono" id="phone" required="" data-validation-required-message="Ingrese su teléfono">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
