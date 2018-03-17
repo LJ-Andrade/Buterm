@@ -3,7 +3,6 @@
 $mailFrom = "mailfrom@buterm.com.ar";
 // Mail destinatario (Cliente)
 $MailToAddress = "clientmail@buterm.com.ar";
-$MailToAddress = "javzero1@gmail.com";
 
 //=====================================================
 
