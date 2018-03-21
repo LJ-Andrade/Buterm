@@ -217,23 +217,23 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<form id="contactForm" action="	send.php" method="POST">
+				<form id="contactForm" action="send.php" method="POST">
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Ingrese su Nombre" id="name" required="" data-validation-required-message="Ingrese su nombre o empresa.">
+								<input type="text" class="form-control" placeholder="Ingrese su Nombre" name="name" id="name" required="" data-validation-required-message="Ingrese su nombre o empresa.">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="col-md-6  col-sm-12">
 							<div class="form-group">
-								<input type="phone" class="form-control" placeholder="Ingrese su Teléfono" id="phone" required="" data-validation-required-message="Ingrese su teléfono">
+								<input type="phone" class="form-control" placeholder="Ingrese su Teléfono" name="phone" id="phone" required="" data-validation-required-message="Ingrese su teléfono">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Ingrese su Email" id="email" required="" data-validation-required-message="Ingrese su email">
+								<input type="email" class="form-control" placeholder="Ingrese su Email" name="email" id="email" required="" data-validation-required-message="Ingrese su email">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
@@ -241,7 +241,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea class="form-control" placeholder="Mensaje o Consulta" id="FormMessage" required="" data-validation-required-message="Ingrese un mensaje o consulta"></textarea>
+								<textarea class="form-control" placeholder="Mensaje o Consulta" name="FormMessage" id="FormMessage" required="" data-validation-required-message="Ingrese un mensaje o consulta"></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>

@@ -21,9 +21,9 @@ if (!is_array($_POST))
 
 // Genera un mensaje personalizado.
 $Message  = "Nombre/Empresa: ".stripslashes($_POST['name'])." \n";
-$Message .= "Tel.: ".stripslashes($_POST['tel'])." \n";
+$Message .= "Tel.: ".stripslashes($_POST['phone'])." \n";
 $Message .= "E-Mail: ".stripslashes($_POST['email'])." \n";
-$Message .= "Consulta/Mensaje: ".stripslashes($_POST['message'])." \n";
+$Message .= "Consulta/Mensaje: ".stripslashes($_POST['FormMessage'])." \n";
 
 if ($Header) {
 	$Message = $Header."\n\n".$Message."\n\n";
