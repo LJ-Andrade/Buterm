@@ -1,8 +1,8 @@
 <?php
 // Mail de salida - Si es donweb debe ser un mail creado en el mismo hosting.
-$mailFrom = "mailfrom@buterm.com.ar";
+$mailFrom = "consultas@aislantesbuterm.com.ar";
 // Mail destinatario (Cliente)
-$MailToAddress = "clientmail@buterm.com.ar";
+$MailToAddress = "consultas@aislantesbuterm.com.ar";
 
 //=====================================================
 
